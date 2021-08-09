@@ -1,6 +1,6 @@
 # flashpi
 
-![KiCad raytraced board render](assets/flashpi-top.png)
+![KiCad raytraced board render](assets/flashpi.png)
 
 
 ## Repository Structure
