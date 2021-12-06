@@ -55,15 +55,14 @@ out/
 build
 fab
 
-# MS Excel lock files
-.~lock.*
-
 # secrets
 .secrets
 
-# alternates
-EltekController/alternate
-kikit-docker-jlcfab.sh
+# local script stuff
+*docker*.sh
+
+# backup dirs
+**/*-backups/
 
 # logs
 *.log
