@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "flashpi-rescue")(type "Legacy")(uri "${KIPRJMOD}/nandpi-rescue.lib")(options "")(descr ""))
+)

@@ -1,12 +1,22 @@
-# flashpi
+# flashpi & nandpi
+
+boards for turning a raspberry pi 
 
 ![KiCad raytraced board render](assets/flashpi.png)
 
 
 ## Repository Structure
+
+For the `flashpi` SPI flasher hat:
+
 - `flashpi` contains the main schematics and board drawing
 - `flashpi/flashpi.pretty` contains the board-specific footprints
 - `flashpi/flashpi.3dshapes` contains the 3D models for parts on the board (and a bunch of extras from my various experiments)
+
+For the `nandpi` Parallel NAND flasher hat (which is highly experimental):
+- `nandpi` contains the main schematics and board drawing
+- `nandpi/nandpi.pretty` contains the board-specific footprints
+- `nandpi/nandpi.3dshapes` contains the 3D models for parts on the board (and a bunch of extras from my various experiments)
 
 ## Building
 Simply call `make` in the top-top level directory. The `build` directory will then contain:
